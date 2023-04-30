@@ -3,12 +3,16 @@ A project developed for the Numerical Methods Laboratory class at University of 
 
 To compile the project, use the followings commands:
 
-$ gcc -o fixed-point-iteration fixed-point-iteration.c -lm
-$ gcc -Wall -pedantic -o newtonMethod newtonMethod.c -lm
+>  $ gcc -o fixed-point-iteration fixed-point-iteration.c -lm
+
+>  $ gcc -Wall -pedantic -o newtonMethod newtonMethod.c -lm
 
 To generate the fractal images, use: 
 
-$ gnuplot
-$ set terminal png size (1200, 800)
-$ set output ”imagename.png”
-$ plot ”output.txt”with image pixel
+>  $ gnuplot
+
+>  $ set terminal png size (1200, 800)
+
+>  $ set output ”imagename.png”
+
+>  $ plot ”output.txt”with image pixel
